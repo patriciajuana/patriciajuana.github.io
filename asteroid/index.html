@@ -1,0 +1,52 @@
+<!doctype html>
+	<html>
+	<head>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<style>
+			body{
+				margin:0px;
+				overflow:hidden;
+				background-color:#000000;
+			}
+			.instructions{
+				font:Arial;
+				font-size: 0.8em;
+				color:#cccccc;
+				position:absolute;
+				margin-top:5px;
+				margin-left:5px;
+
+				-webkit-user-select: none; /* Chrome/Safari */        
+				-moz-user-select: none; /* Firefox */
+				-ms-user-select: none; /* IE10+ */
+			}
+			.highlightText{
+				color:#ffcc00;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="asteroidImage1" style="display:none" src="images/asteroid1.png">
+		<img id="asteroidImage2" style="display:none" src="images/asteroid2.png">
+		<img id="asteroidImage3" style="display:none" src="images/asteroid3.png">
+		<img id="asteroidImage4" style="display:none" src="images/asteroid4.png">
+		<img id="ship" style="display:none" src="images/ship.png">
+		<div id="instructions" class="instructions">
+			[<span class="highlightText">spacebar</span>] to move<br>
+			[<span class="highlightText">mouse</span>] to aim and shoot<br>
+			[<span class="highlightText">refresh browser</span>] to restart<br>
+			[<span class="highlightText">fullscreen browser</span>] for best experience<br>
+			[<span class="highlightText">enter</span>] to remove instructions
+			</div>
+		<div id="container"></div>
+	</body>
+
+	<script src="js/CanvasElement.js"></script>
+	<script src="js/Space.js"></script>
+	<script src="js/Star.js"></script>
+	<script src="js/Bullet.js"></script>
+	<script src="js/Ship.js"></script>
+	<script src="js/Asteroid.js"></script>
+	<script src="js/Spray.js"></script>
+	<script src="js/Main.js"></script>
+</html>
