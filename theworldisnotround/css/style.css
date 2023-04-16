@@ -238,6 +238,11 @@ section{
 .nav a:hover:after{
     transform:scale(1);
 }
+@media only screen and (max-width: 425px) {
+    .header:not(.is-inner) .nav li:nth-last-child(-n+2) a{
+        color:#000;
+    }
+}
 /* active state */ 
 .nav a.is-active{
     color:var(--color-accent);
