@@ -949,7 +949,7 @@ section{
 .contact-section{
     margin-top:40vh;
     position:relative;
-    padding-bottom:100px;
+    padding-bottom:300px;
 }
 @media only screen and (max-width: 425px) {
     .contact-section{
@@ -996,7 +996,7 @@ section{
     /* line */
     content:'';
     position:absolute;
-    top:100%;
+    bottom:0;
     left:50%;
     transform:translateX(-50%);
     width:1px;
@@ -1082,7 +1082,7 @@ section{
 
 /* Footer Section */
 .footer{
-    margin-top:20vh;
+    margin-top:100px;
     text-align:center;
     padding-bottom:50px;
 }
