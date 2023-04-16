@@ -69,7 +69,7 @@ section{
 .l-container{
     display:block;
     position:relative;
-    width:1440px;
+    width:calc(1440px - 30px);
     padding:0 15px;
     margin:0 auto;
 }
@@ -183,7 +183,7 @@ section{
         animation:nav-transition 0.5s ease-out forwards;
     }
     .header.is-inner .header__nav{
-        transform:translate(calc(1440px - 100% - 30px), -55px);
+        transform:translate(calc(1440px - 100% - 60px), -55px);
     }
     .header.is-inner .header__container:after{
         transform:translateY(-20px);
