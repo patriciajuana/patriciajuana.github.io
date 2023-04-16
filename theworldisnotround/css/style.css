@@ -29,6 +29,8 @@
     --font-src-code: 'Source Code Pro', monospace;
     --font-src-sans: 'Source Sans Pro', sans-serif;
     --font-japan: 'Japan Wave', sans-serif;
+
+    --ease-expoEaseOut:cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* Base Styles */
@@ -52,9 +54,9 @@ section{
     overflow:hidden;
 }
 
-/* AOS Custom Easing: ExpoEaseOut*/
+/* AOS Custom Easing*/
 *[data-aos]{
-    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1) !important;
+    transition-timing-function: var(----ease-expoEaseOut) !important;
 }
 
 /* Typography */
@@ -329,12 +331,19 @@ section{
 .hero__scroll:after{
     /* line */
     content:'';
+    display:block;
     position:absolute;
     top:40px;
     left:50%;
     width:1px;
     height:255px;
     background-color:var(--color-line);
+    transform-origin:bottom;
+    transform:scaleY(0);
+    transition:transform 0.5s ease-in;
+}
+.hero__scroll.aos-animate:after{
+    transform:scaleY(1);
 }
 .hero__image{
     width:100%;
@@ -1073,7 +1082,7 @@ section{
 
 /* Footer Section */
 .footer{
-    margin-top:40vh;
+    margin-top:20vh;
     text-align:center;
     padding-bottom:50px;
 }
