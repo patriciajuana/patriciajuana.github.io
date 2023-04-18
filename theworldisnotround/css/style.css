@@ -653,7 +653,7 @@ section{
         transform:translateX(0);
     }
     to{
-        transform:translateX(-100%);
+        transform:translateX(-500%);
     }
 }
 .about-section__heading{
@@ -661,7 +661,7 @@ section{
     font-size:200px;
     white-space: nowrap;
     margin:0;
-    animation:horizontal-scroll 10s linear infinite;
+    animation:horizontal-scroll 100s linear infinite;
 }
 .about-section__bg{
     position:absolute;
