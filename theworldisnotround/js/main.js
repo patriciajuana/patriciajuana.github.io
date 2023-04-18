@@ -24,10 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
     //Nav Active State
     const nav=document.querySelector('#js-nav');
     const navItems=nav.querySelectorAll('li a');
+    const removeAllActiveStates=()=>{
+        //remove all active states
+        navItems.forEach(e=>e.classList.remove('is-active'));
+    }
     navItems.forEach((navItem)=>{
         navItem.addEventListener('click', ()=>{
-            //remove all active states
-            navItems.forEach(e=>e.classList.remove('is-active'));
+            removeAllActiveStates();
+            
             //apply new active state
             navItem.classList.add('is-active');
         });
