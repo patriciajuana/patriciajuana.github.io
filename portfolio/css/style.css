@@ -141,6 +141,7 @@ a {
 
 a i {
     margin-left: 5px;
+    transform:scale(0.8);
 }
 
 .required {
@@ -397,6 +398,7 @@ iframe {
 .home-content__tags {
     font-family: var(--font-oswald);
     font-weight: var(--weight-extra-light);
+    color:var(--color-gray);
     font-size: 15px;
     position: relative;
     text-align: right;
@@ -420,7 +422,7 @@ iframe {
     bottom: 0;
     width: 1px;
     height: 10px;
-    background-color: var(--color-black);
+    background-color: var(--color-gray);
 }
 
 .home-content__tags:after {
@@ -430,7 +432,7 @@ iframe {
     bottom: 0;
     width: 100px;
     height: 1px;
-    background-color: var(--color-black);
+    background-color: var(--color-gray);
 }
 
 /* button */
