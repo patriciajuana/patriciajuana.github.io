@@ -191,8 +191,8 @@ iframe {
 .header {
     padding-top: 20px;
     padding-bottom: 50px;
-    position:relative;
-    z-index:100;
+    position: relative;
+    z-index: 100;
 }
 
 @media screen and (max-width:992px) {
