@@ -262,6 +262,10 @@ iframe {
     position: relative;
 }
 
+.footer__nav ul li>a.active {
+    color: var(--color-white);
+}
+
 .footer__nav ul li>p.disabled {
     opacity: 0.5;
 }
@@ -284,6 +288,10 @@ iframe {
     color: var(--color-gray);
     text-decoration: none;
     position: relative;
+}
+
+.footer__nav-sub a.active {
+    color: var(--color-white);
 }
 
 .footer small {
@@ -375,6 +383,18 @@ iframe {
 
 .nav .navbar-nav li a:active {
     background-color: transparent;
+}
+
+.nav .navbar-nav li a.active:after {
+    opacity: 1;
+}
+
+.dropdown-item.active {
+    background-color: var(--color-red);
+}
+
+.nav .navbar-nav .dropdown-item.active:hover {
+    color: var(--color-white);
 }
 
 @media screen and (min-width:992px) {
