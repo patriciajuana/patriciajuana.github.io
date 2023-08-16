@@ -1,3 +1,10 @@
+/*
+* References:
+* Bootstrap: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+* BEM: https://getbem.com/
+* SMACSS: https://smacss.com/
+*/
+
 /* Variables */
 :root {
     --color-black: #393939;

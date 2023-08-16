@@ -1,3 +1,9 @@
+/**
+ * References:
+ * Simple Parallax: https://simpleparallax.com/#examples
+ * GSAP: https://greensock.com/st-demos/
+ */
+
 document.addEventListener("DOMContentLoaded", () => {
     // Parallax Options
     document.querySelectorAll('.parallax').forEach((e) => {
