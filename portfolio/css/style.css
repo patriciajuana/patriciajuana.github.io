@@ -389,6 +389,11 @@ iframe {
     opacity: 1;
 }
 
+html[data-bs-theme="dark"] .nav .navbar-nav li a.active:after {
+    opacity: 1;
+    background-color: var(--color-white);
+}
+
 .dropdown-item.active {
     background-color: var(--color-red);
 }
