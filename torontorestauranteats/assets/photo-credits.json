@@ -1,0 +1,30 @@
+{
+  "restaurant-interior.jpg": "https://www.pexels.com/photo/interior-of-restaurant-14590691/",
+  "review-pasta.jpg": "https://www.pexels.com/photo/1279330/",
+  "review-burrata.jpg": "https://www.pexels.com/photo/burrata-cheese-at-restaurant-table-20184728/",
+  "review-creamy-pasta.jpg": "https://www.pexels.com/photo/8697516/",
+  "toronto-streetscape.jpg": "https://www.pexels.com/photo/red-and-white-tram-on-the-street-14318541/",
+  "toronto-skyline.jpg": "https://www.pexels.com/photo/waterfront-of-toronto-at-sunset-18325914/",
+  "toronto-dining-street.jpg": {
+    "photographer": "Jason Ng",
+    "source": "https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-9k87Doi5jeI",
+    "license": "Unsplash License"
+  },
+  "toronto-night-dining.jpg": {
+    "photographer": "Renan Kamikoga",
+    "source": "https://unsplash.com/photos/kanji-text-signage-during-night-time-_8BQ1i7zq1A",
+    "license": "Unsplash License"
+  },
+  "toronto-distillery-night.jpg": {
+    "photographer": "Neguev",
+    "source": "https://commons.wikimedia.org/wiki/File:Distillery_District_at_night.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Cropped to fit the page layout"
+  },
+  "restaurant-street-night.jpg": {
+    "photographer": "Erik Mclean",
+    "source": "https://www.pexels.com/photo/business-establishments-along-the-street-during-night-time-9425944/",
+    "license": "Pexels License"
+  }
+}
