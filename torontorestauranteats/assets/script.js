@@ -2,9 +2,9 @@
 (() => {
  const root=document.getElementById('tre-home');
  const reviewPhotos=[
-  {src:'assets/review-pasta.jpg',alt:'Fresh pasta with tomatoes and basil, lifted on a fork'},
-  {src:'assets/review-burrata.jpg',alt:'Burrata with heirloom tomatoes and fresh herbs on a white restaurant plate'},
-  {src:'assets/review-creamy-pasta.jpg',alt:'Creamy pasta with parmesan and basil in a white restaurant bowl'}
+  {src:'assets/review-pasta.webp',alt:'Fresh pasta with tomatoes and basil, lifted on a fork'},
+  {src:'assets/review-burrata.webp',alt:'Burrata with heirloom tomatoes and fresh herbs on a white restaurant plate'},
+  {src:'assets/review-creamy-pasta.webp',alt:'Creamy pasta with parmesan and basil in a white restaurant bowl'}
  ];
  const reviews=[
   {name:'Cedar Lane Trattoria',meta:'Little Italy · Italian · $$',slug:'cedar-lane-trattoria',position:'48% 70%',excerpt:'Silky tomato sauce, rigatoni with a proper bite, and a dining room that invites you to linger. Cedar Lane gets the little things right, from warm focaccia to a server who knows exactly which glass of red to pour.',body:["Cedar Lane feels welcoming before the first plate arrives. Candlelight warms the small dining room, the tables are close enough for a lively buzz, and the team makes time to walk you through the menu without rushing your order.","The rigatoni is the reason to come hungry: pleasantly firm pasta, a rich tomato sauce and just enough basil to keep things fresh. Start with the focaccia and share the burrata, which arrives with sweet tomatoes and good olive oil. The menu is short, but that focus works in its favour.","Service is relaxed and thoughtful, though the room gets noticeably louder as the evening fills up. For a casual date or dinner with a few friends, the generous portions and approachable wine list make Cedar Lane an easy place to settle in."]},
