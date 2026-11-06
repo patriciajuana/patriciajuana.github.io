@@ -1,0 +1,71 @@
+#tre-home .tre-skip{position:absolute;left:16px;top:-80px;z-index:30;background:var(--tre-paper);padding:12px 18px}
+#tre-home .tre-skip:focus{top:12px}
+#tre-home a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+#tre-home .tre-nav a[aria-current="page"]{color:var(--tre-red);text-decoration:underline;text-underline-offset:5px}
+#tre-home .tre-footer .tre-nav a[aria-current="page"]{color:var(--tre-cream)}
+#tre-home .tre-journal-masthead{padding-top:45px;padding-bottom:38px}
+#tre-home .tre-journal-masthead>.tre-kicker{text-align:center;margin-bottom:18px}
+#tre-home .tre-journal-masthead h1{font-size:clamp(68px,10vw,140px);line-height:1;margin:0;text-align:center;max-width:none;letter-spacing:-.035em;color:var(--tre-brown)}
+#tre-home .tre-journal-masthead h1>span{color:var(--tre-red)}
+#tre-home .tre-journal-masthead>div{display:flex;align-items:center;justify-content:space-between;gap:35px;margin-top:28px;padding-top:22px;border-top:2px solid var(--tre-brown)}
+#tre-home .tre-journal-masthead>div>p{font-size:14px;line-height:1.8;max-width:56ch}
+#tre-home .tre-journal-masthead>div>.tre-kicker{font-size:10px;text-align:right}
+#tre-home .tre-journal-list{padding-bottom:55px}
+#tre-home .tre-journal-filters{display:flex;gap:26px;flex-wrap:wrap;padding:0 0 24px;font-size:12px}
+#tre-home .tre-journal-filters a{padding:7px 0;border-bottom:1px solid transparent}
+#tre-home .tre-journal-filters a[aria-current="true"],#tre-home .tre-journal-filters a:hover{color:var(--tre-red);border-color:currentColor}
+#tre-home .tre-journal-stories{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+#tre-home .tre-journal-card{display:grid;grid-template-columns:160px 1fr;gap:25px;align-items:start;border-top:1px solid var(--tre-line);padding-top:25px}
+#tre-home .tre-journal-image{display:block;overflow:hidden}
+#tre-home .tre-journal-image img{width:100%;height:230px;object-fit:cover}
+#tre-home .tre-journal-card-copy>.tre-kicker{font-size:10px;color:var(--tre-red);margin-bottom:12px}
+#tre-home .tre-journal-card h2{font-size:34px;line-height:1.08;margin-bottom:14px}
+#tre-home .tre-journal-card h2 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+#tre-home .tre-journal-card-copy>p:not(.tre-kicker){font-size:12px;line-height:1.85}
+#tre-home .tre-journal-card-meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:10px;margin-top:18px;opacity:.75}
+#tre-home .tre-journal-card .tre-link{margin-top:20px;min-height:38px}
+#tre-home .tre-journal-lead{grid-column:1/-1;grid-template-columns:1.3fr 1fr;background:var(--tre-brown) url('ink-grain.svg');background-size:180px;color:var(--tre-cream);gap:0;border:0;padding-top:0}
+#tre-home .tre-journal-lead .tre-journal-image img{height:490px}
+#tre-home .tre-journal-lead .tre-journal-card-copy{padding:46px 42px;align-self:center}
+#tre-home .tre-journal-lead .tre-journal-card-copy>.tre-kicker{color:#e5b6a5}
+#tre-home .tre-journal-lead h2{font-size:58px;max-width:14ch}
+#tre-home .tre-journal-lead .tre-journal-card-copy>p:not(.tre-kicker){font-size:14px}
+#tre-home .tre-journal-pagination{display:flex;justify-content:center;align-items:center;gap:9px;padding-top:30px;margin-top:35px;border-top:1px solid var(--tre-line)}
+#tre-home .tre-journal-pagination>*{display:grid;place-items:center;min-height:42px;min-width:42px;padding:8px 13px;border:1px solid var(--tre-line);font-size:12px}
+#tre-home .tre-journal-pagination [aria-current]{background:var(--tre-brown);color:var(--tre-paper)}
+#tre-home .tre-journal-pagination [aria-disabled]{opacity:.45}
+#tre-home .tre-journal-article{padding-top:28px;padding-bottom:55px}
+#tre-home .tre-journal-back{font-size:11px}
+#tre-home .tre-story-heading{max-width:900px;margin:40px auto;text-align:center}
+#tre-home .tre-story-heading>.tre-kicker{color:var(--tre-red);display:inline-block;margin-bottom:22px}
+#tre-home .tre-story-heading h1{font-size:clamp(52px,6vw,84px);max-width:19ch;margin:0 auto 24px;line-height:1.02;color:var(--tre-brown)}
+#tre-home .tre-story-deck{font-size:18px;line-height:1.8;max-width:62ch;margin:0 auto}
+#tre-home .tre-story-byline{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px 10px;font-size:11px;margin:25px auto 0}
+#tre-home .tre-story-cover{margin:0}
+#tre-home .tre-story-cover img{width:100%;height:490px;object-fit:cover}
+#tre-home .tre-story-cover figcaption{font-size:10px;margin-top:12px}
+#tre-home .tre-story-reading{display:grid;grid-template-columns:210px minmax(0,700px);gap:65px;justify-content:space-between;margin:45px 0 55px}
+#tre-home .tre-story-toc{align-self:start;position:sticky;top:25px;border-top:2px solid var(--tre-brown);padding-top:18px}
+#tre-home .tre-story-toc>.tre-kicker{font-size:10px;margin-bottom:14px}
+#tre-home .tre-story-toc a{display:block;font-size:12px;line-height:1.7;border-bottom:1px solid var(--tre-line);padding:12px 0}
+#tre-home .tre-story-toc a:hover{color:var(--tre-red)}
+#tre-home .tre-story-opening{font-size:21px;line-height:1.7;max-width:none;margin-bottom:32px;padding-bottom:28px;border-bottom:1px solid var(--tre-line)}
+#tre-home .tre-story-body section{margin-bottom:32px;scroll-margin-top:25px}
+#tre-home .tre-story-body h2{font-size:36px;margin-bottom:18px}
+#tre-home .tre-story-body section p{font-size:15px;line-height:1.95;max-width:none}
+#tre-home .tre-story-body section p+p{margin-top:18px}
+#tre-home .tre-story-inline-photo{margin:35px 0}
+#tre-home .tre-story-inline-photo img{width:100%;height:360px;object-fit:cover}
+#tre-home .tre-story-inline-photo figcaption{font-size:10px;color:#78675c;margin-top:11px}
+#tre-home .tre-story-body blockquote{margin:34px 0;padding:27px 30px;background:var(--tre-paper) url('paper-grain.svg');background-size:180px;font-family:'Barlow Condensed',sans-serif;font-size:36px;line-height:1.25;border-top:2px solid var(--tre-red)}
+#tre-home .tre-related-stories{border-top:2px solid var(--tre-brown);padding-top:30px}
+#tre-home .tre-related-heading .tre-kicker{margin-bottom:12px;font-size:10px}
+#tre-home .tre-related-heading h2{font-size:40px;margin-bottom:28px}
+#tre-home .tre-related-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+#tre-home .tre-related-card img{width:100%;height:230px;object-fit:cover}
+#tre-home .tre-related-card .tre-kicker{font-size:10px;color:var(--tre-red);margin:16px 0 10px}
+#tre-home .tre-related-card h3{font-size:32px}
+#tre-home .tre-related-card:hover h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+@media(max-width:950px){#tre-home .tre-journal-lead h2{font-size:46px}#tre-home .tre-journal-lead .tre-journal-card-copy{padding:30px}#tre-home .tre-journal-card:not(.tre-journal-lead){grid-template-columns:1fr}#tre-home .tre-journal-card:not(.tre-journal-lead) .tre-journal-image img{height:250px}#tre-home .tre-story-reading{grid-template-columns:170px minmax(0,1fr);gap:35px}}
+@media(max-width:650px){#tre-home .tre-journal-masthead{padding-top:30px;padding-bottom:25px}#tre-home .tre-journal-masthead h1{font-size:62px}#tre-home .tre-journal-masthead>.tre-kicker{font-size:9px}#tre-home .tre-journal-masthead>div{flex-direction:column;align-items:start;gap:14px;margin-top:22px}#tre-home .tre-journal-masthead>div>.tre-kicker{text-align:left;font-size:9px}#tre-home .tre-journal-filters{gap:6px 22px}#tre-home .tre-journal-stories{grid-template-columns:1fr;gap:30px}#tre-home .tre-journal-lead{grid-template-columns:1fr}#tre-home .tre-journal-lead .tre-journal-image img{height:280px}#tre-home .tre-journal-lead .tre-journal-card-copy{padding:25px}#tre-home .tre-journal-lead h2{font-size:42px}#tre-home .tre-journal-card:not(.tre-journal-lead){grid-template-columns:110px 1fr;gap:18px}#tre-home .tre-journal-card:not(.tre-journal-lead) .tre-journal-image img{height:170px}#tre-home .tre-journal-card:not(.tre-journal-lead) h2{font-size:29px}#tre-home .tre-journal-card:not(.tre-journal-lead) .tre-journal-card-copy>p:not(.tre-kicker){font-size:12px}#tre-home .tre-story-heading{margin:30px auto}#tre-home .tre-story-heading h1{font-size:49px}#tre-home .tre-story-deck{font-size:16px}#tre-home .tre-story-cover img{height:300px}#tre-home .tre-story-reading{grid-template-columns:1fr;gap:28px;margin-top:30px}#tre-home .tre-story-toc{position:static}#tre-home .tre-story-opening{font-size:19px}#tre-home .tre-story-body h2{font-size:32px}#tre-home .tre-story-inline-photo img{height:260px}#tre-home .tre-story-body blockquote{padding:24px;font-size:31px}#tre-home .tre-related-grid{grid-template-columns:1fr;gap:30px}#tre-home .tre-related-card img{height:240px}#tre-home .tre-related-heading h2{font-size:35px}}
+#tre-home .tre-journal-masthead>.tre-kicker{max-width:none}

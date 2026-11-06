@@ -1,0 +1,93 @@
+#tre-home .tre-review-detail{padding-top:30px;padding-bottom:55px}
+#tre-home .tre-review-back{font-size:11px}
+#tre-home .tre-detail-header{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;padding:38px 0}
+#tre-home .tre-detail-header .tre-kicker{color:var(--tre-red);margin-bottom:18px}
+#tre-home .tre-detail-header h1{font-size:clamp(48px,5.8vw,80px);line-height:1.02;max-width:14ch;margin:0 0 22px}
+#tre-home .tre-detail-date{font-size:11px;color:#78675c}
+#tre-home .tre-detail-date span{margin:0 8px}
+#tre-home .tre-detail-deck{font-size:18px;line-height:1.8;max-width:45ch}
+#tre-home .tre-detail-photo{margin:0}
+#tre-home .tre-detail-photo img{width:100%;height:480px;object-fit:cover;object-position:50% 50%}
+#tre-home .tre-detail-photo figcaption{font-size:10px;padding-top:13px}
+#tre-home .tre-detail-body{max-width:700px;margin:48px auto 52px}
+#tre-home .tre-detail-body>.tre-kicker{color:var(--tre-red);margin-bottom:22px}
+#tre-home .tre-detail-body>p:not(.tre-kicker){font-size:16px;line-height:1.95;max-width:none;margin-top:22px}
+#tre-home .tre-detail-navigation{display:flex;justify-content:space-between;align-items:center;gap:25px;border-top:1px solid var(--tre-line);padding-top:27px}
+#tre-home .tre-detail-next{text-align:right}
+#tre-home .tre-detail-next .tre-kicker{font-size:10px;display:block;margin-bottom:8px}
+#tre-home .tre-detail-next strong{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:600}
+#tre-home .tre-detail-next:hover strong{color:var(--tre-red)}
+@media(max-width:650px){#tre-home .tre-review-detail{padding-top:22px;padding-bottom:35px}#tre-home .tre-detail-header{grid-template-columns:1fr;gap:25px;padding:30px 0}#tre-home .tre-detail-header h1{font-size:52px}#tre-home .tre-detail-deck{font-size:16px}#tre-home .tre-detail-photo img{height:300px}#tre-home .tre-detail-body{margin:32px 0}#tre-home .tre-detail-body>p:not(.tre-kicker){font-size:15px}#tre-home .tre-detail-navigation{align-items:start;flex-direction:column}#tre-home .tre-detail-next{text-align:left}}
+
+#tre-home .tre-detail-byline{display:flex;align-items:center;gap:11px;margin:20px 0 16px}
+#tre-home .tre-author-avatar{display:grid;place-items:center;width:42px;height:42px;flex-shrink:0;border-radius:50%;background:var(--tre-brown);color:var(--tre-cream);font-size:12px;font-weight:600}
+#tre-home .tre-detail-byline a{display:block;font-size:12px;font-weight:600}
+#tre-home .tre-detail-byline a:hover{text-decoration:underline}
+#tre-home .tre-detail-byline div>span{display:block;font-size:10px;color:#78675c;margin-top:2px}
+#tre-home .tre-editorial-layout{display:grid;grid-template-columns:240px minmax(0,700px);justify-content:space-between;gap:60px;margin:48px 0 55px}
+#tre-home .tre-editorial-layout .tre-detail-body{max-width:none;min-width:0;margin:0}
+#tre-home .tre-review-snapshot{align-self:start;padding:24px;background:var(--tre-paper) url('paper-grain.svg');background-size:180px;border-top:3px solid var(--tre-brown)}
+#tre-home .tre-review-snapshot>.tre-kicker{margin-bottom:18px}
+#tre-home .tre-review-snapshot dl{margin:0}
+#tre-home .tre-review-snapshot dl>div{border-top:1px solid var(--tre-line);padding-top:12px;margin-top:12px}
+#tre-home .tre-review-snapshot dt{font-size:10px;color:#78675c;margin-bottom:4px}
+#tre-home .tre-review-snapshot dd{margin:0;font-size:13px;line-height:1.7}
+#tre-home .tre-review-contents{display:flex;flex-wrap:wrap;gap:8px 16px;padding-bottom:22px;margin-bottom:32px;border-bottom:1px solid var(--tre-line)}
+#tre-home .tre-review-contents>.tre-kicker{width:100%;font-size:10px;margin-bottom:6px}
+#tre-home .tre-review-contents a{font-size:11px;text-decoration:underline;text-underline-offset:3px}
+#tre-home .tre-editorial-section{scroll-margin-top:25px;margin-bottom:32px}
+#tre-home .tre-editorial-section h2{font-size:36px;margin-bottom:18px}
+#tre-home .tre-editorial-section p{font-size:15px;line-height:1.95;max-width:none}
+#tre-home .tre-editorial-section p+p{margin-top:18px}
+#tre-home .tre-inline-photo{margin:36px 0}
+#tre-home .tre-inline-photo img{width:100%;height:390px;object-fit:cover}
+#tre-home .tre-inline-photo figcaption,#tre-home .tre-review-gallery figcaption{font-size:10px;line-height:1.7;padding-top:10px;color:#78675c}
+#tre-home .tre-review-pullquote{font-family:'Barlow Condensed',sans-serif;font-size:38px;line-height:1.2;margin:34px 0;padding:25px 0 25px 24px;border-left:3px solid var(--tre-red);color:var(--tre-red)}
+#tre-home .tre-review-gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:35px 0}
+#tre-home .tre-review-gallery figure{margin:0}
+#tre-home .tre-review-gallery img{width:100%;height:255px;object-fit:cover}
+#tre-home .tre-review-gallery>p{grid-column:1/-1;font-size:10px;color:#78675c}
+#tre-home .tre-review-verdict{background:var(--tre-brown) url('ink-grain.svg');background-size:180px;color:var(--tre-cream);padding:30px;margin:36px 0}
+#tre-home .tre-review-verdict .tre-kicker{color:#e5b6a5;margin-bottom:12px}
+#tre-home .tre-review-verdict h2{font-size:36px;margin-bottom:18px}
+#tre-home .tre-review-verdict>p:not(.tre-kicker){font-size:14px;line-height:1.9;margin-bottom:22px}
+#tre-home .tre-review-verdict>div{display:grid;grid-template-columns:90px 1fr;gap:12px;border-top:1px solid #efe3dd40;padding-top:12px;margin-top:12px;font-size:12px}
+#tre-home .tre-author-card{display:flex;align-items:start;gap:18px;border-top:1px solid var(--tre-line);padding-top:26px;margin-top:36px;scroll-margin-top:25px}
+#tre-home .tre-author-card .tre-author-avatar{width:52px;height:52px;font-size:14px}
+#tre-home .tre-author-card .tre-kicker{font-size:10px;margin-bottom:8px}
+#tre-home .tre-author-card h2{font-size:30px;margin-bottom:10px}
+#tre-home .tre-author-card p:not(.tre-kicker){font-size:12px;line-height:1.8}
+#tre-home .tre-author-note{display:block;font-size:10px;color:#78675c;margin-top:10px}
+@media(max-width:950px){#tre-home .tre-editorial-layout{grid-template-columns:190px minmax(0,1fr);gap:30px}#tre-home .tre-review-snapshot{padding:20px}}
+@media(max-width:650px){#tre-home .tre-editorial-layout{grid-template-columns:1fr;gap:30px;margin:30px 0}#tre-home .tre-review-snapshot dl{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}#tre-home .tre-review-snapshot dl>div:last-child{grid-column:1/-1}#tre-home .tre-editorial-section h2{font-size:32px}#tre-home .tre-inline-photo img{height:270px}#tre-home .tre-review-gallery{gap:12px}#tre-home .tre-review-gallery img{height:190px}#tre-home .tre-review-pullquote{font-size:32px;padding-left:18px}#tre-home .tre-review-verdict{padding:24px}#tre-home .tre-review-verdict h2{font-size:32px}}
+
+#tre-home .tre-review-sidebar{min-width:0}
+#tre-home .tre-review-sidebar .tre-review-contents{position:sticky;top:24px;display:flex;flex-direction:column;gap:0;margin:28px 0 0;padding:20px;background:var(--tre-paper);border-top:2px solid var(--tre-brown);border-bottom:1px solid var(--tre-line)}
+#tre-home .tre-review-sidebar .tre-review-contents>.tre-kicker{margin-bottom:12px}
+#tre-home .tre-review-sidebar .tre-review-contents a{padding:10px 0;border-top:1px solid var(--tre-line);font-size:12px;line-height:1.6;text-decoration:none}
+#tre-home .tre-review-sidebar .tre-review-contents a:hover{color:var(--tre-red);text-decoration:underline;text-underline-offset:3px}
+#tre-home .tre-mobile-review-nav{display:none}
+@media(max-width:650px){
+ #tre-home .tre-review-sidebar .tre-review-contents{display:none}
+ #tre-home .tre-mobile-review-nav{display:block;position:sticky;top:0;z-index:15;margin:24px -1px 0;padding:0;background:var(--tre-paper);border-top:2px solid var(--tre-brown);border-bottom:1px solid var(--tre-line);box-shadow:0 4px 10px #3a241812}
+ #tre-home .tre-mobile-review-nav summary{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;list-style:none;font-size:13px}
+ #tre-home .tre-mobile-review-nav summary::-webkit-details-marker{display:none}
+ #tre-home .tre-mobile-review-nav[open] summary>span{transform:rotate(180deg)}
+ #tre-home .tre-mobile-review-nav nav{position:absolute;top:100%;left:0;right:0;background:var(--tre-paper);border:1px solid var(--tre-line);padding:5px 16px 10px;box-shadow:0 6px 10px #3a241812;max-height:65vh;overflow-y:auto}
+ #tre-home .tre-mobile-review-nav nav a{display:block;padding:12px 0;font-size:12px;line-height:1.6;border-top:1px solid var(--tre-line)}
+ #tre-home .tre-editorial-section{scroll-margin-top:75px}
+}
+
+#tre-home .tre-review-contents-inline{position:static;display:flex;flex-direction:row;gap:8px 16px;padding:0 0 22px;margin:0 0 32px;background:transparent}
+@media(max-width:650px){#tre-home .tre-mobile-review-nav{position:fixed;top:0;left:5%;right:5%;margin:0}}
+
+/* Match the journal's simple section navigation. */
+#tre-home .tre-review-sidebar .tre-review-contents,#tre-home .tre-review-contents-inline{background:transparent;border-top:2px solid var(--tre-brown);border-bottom:0;padding:18px 0 0;box-shadow:none;flex-direction:column;gap:0}
+#tre-home .tre-review-sidebar .tre-review-contents>.tre-kicker,#tre-home .tre-review-contents-inline>.tre-kicker{font-size:10px;margin-bottom:14px}
+#tre-home .tre-review-sidebar .tre-review-contents a,#tre-home .tre-review-contents-inline a{display:block;padding:12px 0;border-top:0;border-bottom:1px solid var(--tre-line);font-size:12px;line-height:1.7;text-decoration:none}
+#tre-home .tre-review-contents-inline a:hover,#tre-home .tre-review-sidebar .tre-review-contents a:hover{color:var(--tre-red);text-decoration:none}
+
+#tre-home .tre-review-contents-inline{flex-direction:row;flex-wrap:wrap;gap:8px 16px;border-top:0;border-bottom:1px solid var(--tre-line);padding:0 0 22px;margin:0 0 32px}
+#tre-home .tre-review-contents-inline a{display:inline;padding:0;border:0;font-size:11px;text-decoration:underline;text-underline-offset:3px}
+#tre-home .tre-review-contents-inline a:hover{text-decoration:underline}
+#tre-home .tre-review-contents-inline>.tre-kicker{width:100%;margin-bottom:6px}

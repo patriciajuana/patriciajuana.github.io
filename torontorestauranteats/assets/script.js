@@ -24,9 +24,6 @@
  root.querySelectorAll('[data-step]').forEach(button=>button.addEventListener('click',()=>{reviewIndex=(reviewIndex+Number(button.dataset.step)+reviews.length)%reviews.length;renderReview();}));
  readLink.addEventListener('click',()=>setExpanded(readLink.getAttribute('aria-expanded')!=='true'));
  renderReview();
- root.querySelectorAll('.tre-cuisines li').forEach(item=>{const link=document.createElement('a');link.textContent=item.textContent.trim();link.href='#';link.className='cursor-interaction';item.replaceChildren(link);});
- root.querySelectorAll('form').forEach(form=>form.addEventListener('submit',event=>event.preventDefault()));
- root.querySelectorAll('a').forEach(link=>link.addEventListener('click',event=>event.preventDefault()));
  const design={headlineSize:54,photoHeight:500};
  const render=()=>{root.style.setProperty('--tre-head',design.headlineSize+'px');root.style.setProperty('--tre-photo',design.photoHeight+'px');};
  render();
